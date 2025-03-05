@@ -34,4 +34,4 @@ io.on("connection", function (socket) {
   
       io.sockets.emit("messages", messages);
     });
-  });
+});
