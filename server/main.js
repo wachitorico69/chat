@@ -10,16 +10,16 @@ server.listen(8080, function () {
 
 var messages = [
     {
-      author: "Carlos",
-      text: "Hola! que tal?",
+      author: "Francois",
+      text: "Hola, ya viste lo nuevo de Jacques?",
     },
     {
-      author: "Pepe",
-      text: "Muy bien! y tu??",
+      author: "Jean-Luc",
+      text: "Todavía no, tu?",
     },
     {
-      author: "Paco",
-      text: "Genial!",
+      author: "Francois",
+      text: "Una genialidad",
     },
 ];
   
