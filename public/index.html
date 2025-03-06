@@ -2,19 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>My Aplicación con Sockets</title>
     <script src="/socket.io/socket.io.js"></script>
     <script src="main.js"></script>
   </head>
   <body>
-    <h1>My App</h1>
-    <div id="messages"></div>
-    <br />
-    <form onsubmit="return addMessage(this)">
-        <input type="text" id="username" placeholder="Tu Nombre" />
-        <input type="text" id="texto" placeholder="Cuéntanos algo..." />
-        <input type="submit" value="Enviar!" />
+    <header>
+      <h1>Messagerie</h1>
+      <h3>Dario Miguel Moreno González</h3>
+    </header>
+  
+    <div class="contenedor">
+      <h3>CHAT</h3>
+      <div id="messages"></div>
+      <br />
+      <form onsubmit="return addMessage(this)">
+        <div id="sep">
+          <input type="text" id="username" placeholder="Tu Nombre" />
+          <input type="text" id="texto" placeholder="Cuéntanos algo..." />
+        </div>
+          <input type="submit" id="btn" value="Enviar" />
       </form>
-      
+    </div>
   </body>
 </html>
