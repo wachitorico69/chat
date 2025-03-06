@@ -43,9 +43,10 @@ form {
 #sep {
     display: flex;
     flex-direction: row;
-    gap: 10%;
+    gap: 10px;
     align-self: center;
 }
+
 
 #messages {
     margin-top: 1em;
@@ -65,4 +66,5 @@ h3 {
     width: 50%;
     align-self: center;
     font-weight: bold;
+    cursor: pointer;
 }
